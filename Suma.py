@@ -1,5 +1,5 @@
 
-print ("\nElija dos numeros para sumar:")
+print ("\nElija dos numeros para realizar la operacion de sumar:")
 
 try:
         num1 = float(input("introduzca un número: "))
@@ -11,3 +11,5 @@ except ValueError:
 resultado = num1 + num2
 
 print (f"el resultado de la operación es: {resultado}")
+
+
